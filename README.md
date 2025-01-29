@@ -63,19 +63,23 @@ aios-cli hive import-keys ./my.pem
 ```
 aios-cli hive login
 ```
-13. Pilih tier untuk spec VPSmu (Saya 8GB/4core tier 3-4) 
+13. Start Nodes
+```
+aios-cli hive connect
+```
+14. Pilih tier untuk spec VPSmu (Saya 8GB/4core tier 3-4) 
 ```
 aios-cli hive select-tier 3
 ```
-14. Check Hyper Nodes Point
+15. Check Hyper Nodes Point
 ```
 aios-cli hive points
 ```
-15. Check your Pv.Keys & Pub.Keys
+16. Check your Pv.Keys & Pub.Keys
 ```
 aios-cli hive whoami
 ```
-16. Jika tidak ingin RUN lagi Stop Node 
+17. Jika tidak ingin RUN lagi `STOP NODE` 
 ```
 aios-cli kill
 ```
