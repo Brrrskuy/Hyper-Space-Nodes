@@ -18,7 +18,7 @@ curl https://download.hyper.space/api/install | bash
 ```
 source /root/.bashrc
 ```
-3. Buat file my.pem dan isi Privatekeys di gambar kunci , paste di dalam nano jika sudah `CTRL+S` , `CTRL+X` jika sudah
+3. Buat file my.pem dan isi Privatekeys di gambar kunci , paste di dalam nano jika sudah `CTRL+S` + `CTRL+X` 
 ![image](https://github.com/user-attachments/assets/1b1fc174-0f82-47b1-a1da-ecb0d4eff684)
 ```
 nano my.pem
