@@ -71,6 +71,7 @@ aios-cli hive connect
 ```
 aios-cli hive select-tier 3
 ```
+![image](https://github.com/user-attachments/assets/5c4acd4a-b158-49d9-a567-d6e1c937df62)
 15. Check Hyper Nodes Point
 ```
 aios-cli hive points
