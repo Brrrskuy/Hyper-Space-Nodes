@@ -14,7 +14,7 @@
 ```
 curl https://download.hyper.space/api/install | bash
 ```
-2. Lanjut 
+2. Lanjut (tergantung posisi file dimana , klo default root pakai ini)
 ```
 source /root/.bashrc
 ```
@@ -36,51 +36,40 @@ screen -S Hypernodes
 aios-cli start
 ```
 -Lalu kalau sudah pergi ke Home screen lagi `CTRL+A+D`
-
-7. Check ketersediaan models , bisa menggunakan models default / bawaan
-```
-aios-cli models available
-```
-8. Tambahkan models default
+7. Tambahkan models default
 ```
 aios-cli models add hf:TheBloke/phi-2-GGUF:phi-2.Q4_K_M.gguf
 ```
-9. Buat screen baru lagi
-```
-screen -S Hyper
-```
-10. Run inference ini didalam screen 
+8. Run inference 
 ```
 aios-cli infer --model hf:TheBloke/phi-2-GGUF:phi-2.Q4_K_M.gguf --prompt "Can you explain the concept of hyperspace and its applications in science fiction?"
 ```
--Jika sudah nanti pergi ke home screen lagi `CTRL+A+D`
-
-11. Import PV.key dan Login
+9. Import PV.key 
 ```
 aios-cli hive import-keys ./my.pem
 ```
-12. Login ke hive
+10. Login ke hive
 ```
 aios-cli hive login
 ```
-13. Start Nodes
+11. Start Nodes
 ```
 aios-cli hive connect
 ```
-14. Pilih tier untuk spec VPSmu (Saya 8GB/4core tier 3-4) 
+12. Pilih tier untuk spec VPSmu (Saya 8GB/4core tier 3-4) sesuaikan saja
 ```
 aios-cli hive select-tier 3
 ```
 ![image](https://github.com/user-attachments/assets/5c4acd4a-b158-49d9-a567-d6e1c937df62)
-15. Check Hyper Nodes Point
+13. Check Hyper Nodes Points
 ```
 aios-cli hive points
 ```
-16. Check your Pv.Keys & Pub.Keys
+14. Check your Pv.Keys & Pub.Keys
 ```
 aios-cli hive whoami
 ```
-17. Jika tidak ingin RUN lagi `STOP NODE` 
+15. Jika tidak ingin RUN lagi `STOP NODE` 
 ```
 aios-cli kill
 ```
