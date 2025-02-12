@@ -36,6 +36,7 @@ screen -S Hypernodes
 aios-cli start
 ```
 -Lalu kalau sudah pergi ke Home screen lagi `CTRL+A+D`
+
 7. Tambahkan models default
 ```
 aios-cli models add hf:TheBloke/phi-2-GGUF:phi-2.Q4_K_M.gguf
