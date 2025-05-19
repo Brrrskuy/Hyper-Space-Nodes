@@ -40,7 +40,7 @@
 
    `Buat Screen baruu lagiii`
     ```
-    screen -S inference
+    screen -S models
     ```
     Lanjut
     ```
